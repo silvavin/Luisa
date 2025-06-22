@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(62, 112, 77);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center;     /* alinha verticalmente */
+}
+
+#recado {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(214, 36, 36);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 2px black; /* Corrigido: text-shadow precisa de valores */
+}
