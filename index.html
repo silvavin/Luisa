@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Feliz Aniversário, Ana Luisa</title>
+  <title>Mensagem Diária</title>
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -14,7 +14,7 @@
 
     body {
       font-family: 'Lexend Giga', sans-serif;
-      background-color: #fdf2f9;
+      background: #cadf7e;
       color: #333;
       display: flex;
       align-items: center;
@@ -23,147 +23,89 @@
       padding: 2rem;
     }
 
-    .container {
+    #recado {
       background: #fff;
       padding: 2rem 2.5rem;
       border-radius: 1.5rem;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      max-width: 800px;
+      max-width: 700px;
       width: 100%;
-      line-height: 1.7;
+      line-height: 1.6;
     }
 
-    h1, h2, h3 {
-      text-align: center;
-      color: #b30059;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
+    #recado h1 {
       font-size: 2rem;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      font-weight: normal;
-    }
-
-    h3 {
-      font-size: 1rem;
-      margin-top: 2rem;
-      color: #555;
-    }
-
-    p {
-      margin-bottom: 1.2rem;
-    }
-
-    footer {
+      margin-bottom: 1rem;
+      color: #1f1f1f;
       text-align: center;
-      font-style: italic;
-      color: #b30059;
+    }
+
+    #recado p {
+      font-size: 1rem;
+      white-space: pre-line;
+    }
+
+    .btn-container {
+      text-align: center;
       margin-top: 2rem;
     }
 
-    footer button {
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      background-color: #b30059;
-      color: white;
+    .styled-button {
+      background-color: #5a005a;
+      color: #fff;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
       border: none;
       border-radius: 10px;
       cursor: pointer;
-      font-size: 0.9rem;
-    }
-
-    footer button a {
+      transition: background-color 0.3s ease, transform 0.2s ease;
       text-decoration: none;
-      color: white;
+      display: inline-block;
     }
 
-    #confetti-canvas {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: 9999;
+    .styled-button:hover {
+      background-color: #800080;
+      transform: scale(1.05);
     }
 
     @media (max-width: 600px) {
-      .container {
+      #recado {
         padding: 1.5rem;
       }
 
-      h1 {
+      #recado h1 {
         font-size: 1.5rem;
       }
 
-      h2 {
-        font-size: 1rem;
-      }
-
-      p {
+      #recado p {
         font-size: 0.95rem;
       }
     }
   </style>
 </head>
 <body>
-  <canvas id="confetti-canvas"></canvas>
-  <div class="container">
-    <h1>Feliz Aniversário, Minha Gatinha 🎉</h1>
-    <h2>“Você é o melhor presente que Deus me deu.”</h2>
+  <div id="recado">
+    <h1>Recado</h1>
+    <p>
+Oie, amor.
 
-    <p>Meu docinho, minha Luisa... hoje é o seu dia. Um dia que, sinceramente, eu jamais conseguiria deixar passar em branco. Porque você é muito mais que especial — você é a resposta de oração.</p>
+Continuo ruim da minha perna direita. A gente conversou um pouco ontem, e isso tem matado um pouco da saudade que estou de você.
 
-    <p>Eu nunca vou esquecer o dia 22/12/2024. Aquele dia marcou minha vida. Quando marcamos de assistir o Sonho de Natal, eu só pensava que ia ser um momento legal. Mas Deus já estava planejando algo muito maior. Foi o melhor dia da minha vida. Foi quando eu comecei a enxergar o quanto você era diferente, especial, linda... por dentro e por fora.</p>
+Hoje eu descobri que sou uma planta e que não estou mais no coração.  
+Quero estudar um pouco e dormir cedo.
 
-    <p>Eu não imaginava que a gente ia chegar onde chegou. E, sinceramente, não esperava que eu fosse amar tanto assim, que eu ia ficar tão apaixonado por você desse jeito. Mas Deus sabia, e Ele foi costurando tudo com muito carinho, até nos aproximar de um jeito que hoje me faz sorrir só de lembrar.</p>
+Queria correr ou nadar nas minhas férias, mas meu joelho está ruim.  
+Estou triste por isso. E, se isso permanecer, não vou conseguir trabalhar no musical.
 
-    <p>Você me inspira, Luisa! Seu jeito doce, sua firmeza, sua fé, sua dedicação no ministério e no G.A. Tudo em você me faz querer ser melhor: melhor homem, melhor servo de Deus, melhor companheiro pra você.</p>
+Te amo. 💛
 
-    <p>Hoje eu só quero que você saiba o quanto é amada. O quanto sou grato por você existir, por você ter cruzado meu caminho, por cada conversa, cada abraço, cada risada. Você é a minha alegria diária, minha paz e minha motivação.</p>
+Com amor,  
+Vinicius Lima
+    </p>
 
-    <p>Feliz aniversário, minha gatinha. Que Deus continue te moldando, te fortalecendo, e realizando cada sonho do seu coração. E que eu possa estar sempre por perto, celebrando suas vitórias, segurando sua mão e te amando cada vez mais.</p>
-
-    <footer>
-      “O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha.”  
-      <br><strong>1 Coríntios 13:4</strong><br>
-      <button type="button"><a href="pagina1.html" target="_blank">Ver Continuação</a></button>
-    </footer>
-
-    <h3>De: Vinicius Lima</h3>
-    <h3>Para: Luisa Esteu</h3>
+    <div class="btn-container">
+      <a href="page1.html" target="_blank" class="styled-button">Ir para a Página de Aniversário 🎂</a>
+    </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-  <script>
-    window.onload = () => {
-      const duration = 3000;
-      const animationEnd = Date.now() + duration;
-      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 9999 };
-
-      function randomInRange(min, max) {
-        return Math.random() * (max - min) + min;
-      }
-
-      const interval = setInterval(() => {
-        const timeLeft = animationEnd - Date.now();
-        if (timeLeft <= 0) return clearInterval(interval);
-
-        const particleCount = 50 * (timeLeft / duration);
-        confetti(Object.assign({}, defaults, {
-          particleCount,
-          origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
-        }));
-        confetti(Object.assign({}, defaults, {
-          particleCount,
-          origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
-        }));
-      }, 250);
-    };
-  </script>
 </body>
 </html>
